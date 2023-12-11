@@ -1,4 +1,12 @@
-# nftport-nft-generation-nodejs
-NFT Generation Code - Node JS
+# Generating NFT Metadata and Minting NFT's (nftport-nft-generation-nodejs)
 
-Author - Deepak Cardoza
+## Contents ##
+1. Generate NFT MetaData
+2. Batch Mining NFT
+3. Batch Transfer NFT
+4. Fetch NFT Details
+
+## Usage ##
+Function Call to Generate NFT Metadata
+
+## Credits ##
