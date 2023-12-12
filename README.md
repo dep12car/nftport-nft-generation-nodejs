@@ -1,4 +1,4 @@
-# Generating NFT Metadata and Minting NFT's (nftport-nft-generation-nodejs)
+# Generating NFT Metadata and Minting NFT's
 
 ## Contents ##
 1. Generate NFT MetaData
