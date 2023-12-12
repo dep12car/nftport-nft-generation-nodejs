@@ -12,7 +12,11 @@
 3. Mongoose Schema for NFT collection (Node JS)
 
 ## NFT Creation Image in OpenSea Platform (Linked to Metamask Wallet) ##
+`Image of an Minted NFT`
+
 ![NFT Image of Iphone 15](/images/NFT-image.png)
+
+`All NFT's linked to Account`
 
 ![All NFT's registered in account](/images/All-Nft-Images.png)
 ## Usage ##
