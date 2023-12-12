@@ -118,3 +118,6 @@ lambda_client.invoke(
 ```
 
 ## Credits ##
+#### [Deepak Boniface Cardoza - Node JS Developer](mailto:deepak.cardoza@7edge.com) ####
+
+#### [Praneeth Shetty - Python Developer](mailto:praneeth.shetty@7edge.com) ####
