@@ -22,20 +22,3 @@ NFT Minting QuickStart Guide - https://docs.nftport.xyz/docs/minting-quickstart
 4. Edit Product NFT - (Same as above)
 5. Transfer Minted NFT (Same as above)
 6. Delete Product NFT - (Same as above)
-
-**Questions**
-
-Whether the 3rd party Platform like Metamask, is it unique for a merchant  ? Or just single account to MaisonQR ??
-
-We need to Deploy a contract before minting a NFT to it. Within that contract there can be some collections and in those collections Product NFT's can be registered.
-Is that contract is unique for all the merchants or a single contract of MaisonQR ?
-
-When we edit the product NFT, the NFT needs to updated or deleted and recreated. So which one do we have to do ?
-    1. Delete the NFT (Burn NFT)
-    2. Update the existing NFT details (Some things like name of the NFT and all cannot be changed)
-
-Also, We need an account address / wallet address (ex: Metamask) and an contract address of NFTPort where the mints are registered. From where can we get these for testing ??
-
-Confirmed -  Single Account for Metamask or any Platform
-Confirmed - Single Contract in NFTPort to Mint the Product NFT's
-Confirmed - Mint the NFT's during customer order creation (with Quantity - Batch Mint - ERC1155)
