@@ -79,6 +79,38 @@ try {
 ```
 
 ### Python ###
+`Function to transfer NFT to selected customer.`
 
+`Example ENV (In Serverless File)`
+
+```
+GENERATE_NFT_METADATA: ${self:service}-${opt:stage, self:provider.stage}-add-nft
+
+```
+`Example Event Object Data`
+```
+{
+  "customer_address": "0xebb067AF328B75782e299ChF67215456Ea25BdbB",
+  "products": [
+    "65449b434bed5ba3e65320d1",
+    "65449cd2aa10c9424503b4f4"
+  ]
+}
+```
+
+`Code to Invoke Asynchronous Lambda for creating and transfering NFT (add_nft.py)`
+```
+# Asynchronously call the handler to initiate 
+# creation and transfer of NFT to destination.
+
+lambda_client = boto3.client('lambda')
+payload = event
+lambda_client.invoke(
+    # env defined in yml file
+    FunctionName=os.environ.get('GENERATE_NFT_METADATA'),
+    InvocationType='Event',
+    Payload=json.dumps(payload)
+)
+```
 
 ## Credits ##
