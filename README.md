@@ -88,7 +88,7 @@ try {
 `Example ENV (In Serverless File)`
 
 ```
-GENERATE_NFT_METADATA: ${self:service}-${opt:stage, self:provider.stage}-add-nft
+ADD_NFT: ${self:service}-${opt:stage, self:provider.stage}-add-nft
 
 ```
 `Example Event Object Data`
@@ -111,7 +111,7 @@ lambda_client = boto3.client('lambda')
 payload = event
 lambda_client.invoke(
     # env defined in yml file
-    FunctionName=os.environ.get('GENERATE_NFT_METADATA'),
+    FunctionName=os.environ.get('ADD_NFT'),
     InvocationType='Event',
     Payload=json.dumps(payload)
 )
